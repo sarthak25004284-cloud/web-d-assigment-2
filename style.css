@@ -1,0 +1,154 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+/* ===== NAVIGATION BAR ===== */
+nav {
+    background: #1c0202;
+    color: rgba(197, 192, 192, 0.756);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #0694a7;
+}
+
+/* ===== HOME PAGE ===== */
+.hero {
+    padding: 80px;
+    text-align: center;
+    background: #fff;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+/* ===== ABOUT PAGE ===== */
+.about-container {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.about-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* ===== SKILLS PAGE ===== */
+.skills-container {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+/* ===== CONTACT PAGE ===== */
+form {
+    width: 60%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+form button {
+    padding: 12px 20px;
+    border: none;
+    background: #1082e0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #065ea7;
+}
+.about-extra {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.about-extra h3 {
+    margin-top: 20px;
+}
+.about-extra ul li {
+    margin: 5px 0;
+}
+.home-info {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #2196f3;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
+}
